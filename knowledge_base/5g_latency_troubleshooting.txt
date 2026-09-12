@@ -1,0 +1,6 @@
+Problem: High Latency
+Symptoms: Latency exceeds operational limits.
+Possible causes: Cell congestion, backhaul congestion, retransmissions, core delay, poor radio conditions.
+Indicators: High PRB use, packet loss, retransmissions, queueing delay.
+Diagnostic checks: Check PRB utilization, retransmission rate, packet loss, and backhaul utilization.
+Recommended actions: Investigate overloaded cells and transport capacity.

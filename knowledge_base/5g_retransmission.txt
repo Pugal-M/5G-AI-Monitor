@@ -1,0 +1,6 @@
+Problem: Packet Retransmissions
+Symptoms: Latency and jitter increase while effective throughput falls.
+Possible causes: Radio errors, poor link quality, packet loss, HARQ retransmissions.
+Indicators: High retransmission rate, BLER, packet loss, low CQI.
+Diagnostic checks: Check retransmission rate, BLER, packet loss, and radio quality.
+Recommended actions: Repair radio quality and investigate loss sources.

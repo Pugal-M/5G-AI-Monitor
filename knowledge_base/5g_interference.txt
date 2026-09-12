@@ -1,0 +1,6 @@
+Problem: Radio Interference
+Symptoms: High jitter, retransmissions, unstable throughput and degraded SINR.
+Possible causes: Neighbor-cell interference, external RF interference, poor frequency planning.
+Indicators: SINR deterioration, intermittent BLER and retransmission spikes.
+Diagnostic checks: Check interference levels and neighboring-cell configuration.
+Recommended actions: Correct interference source and optimize frequency planning.

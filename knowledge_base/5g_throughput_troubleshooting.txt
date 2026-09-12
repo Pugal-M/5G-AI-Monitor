@@ -1,0 +1,6 @@
+Problem: Low Throughput
+Symptoms: Throughput is below expected service capacity.
+Possible causes: Congestion, low signal quality, low CQI, backhaul limitation, interference.
+Indicators: High PRB utilization, low CQI/SINR, retransmissions, transport bottleneck.
+Diagnostic checks: Check PRB utilization, CQI, SINR, and backhaul capacity.
+Recommended actions: Resolve congestion, radio quality, or transport limitation.

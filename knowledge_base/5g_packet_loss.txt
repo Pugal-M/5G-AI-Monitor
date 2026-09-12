@@ -1,0 +1,6 @@
+Problem: Packet Loss
+Symptoms: Throughput reduction, retransmissions, high latency and jitter.
+Possible causes: Congestion, buffer drops, radio errors, faulty transport.
+Indicators: Packet drop counters, BLER, retransmission rate.
+Diagnostic checks: Check packet loss counters, buffer drops, and radio errors.
+Recommended actions: Remove congestion and repair failing links.

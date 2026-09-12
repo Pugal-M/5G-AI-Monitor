@@ -1,0 +1,6 @@
+Problem: QoS and Queueing Instability
+Symptoms: Variable delay and jitter, especially for real-time traffic.
+Possible causes: QoS policy mismatch, queue saturation, traffic prioritization failure.
+Indicators: High queue depth, drops in priority queues, variable delay.
+Diagnostic checks: Check QoS policy, queue depth, DSCP mapping, and scheduler queues.
+Recommended actions: Correct QoS policy and reserve capacity for critical traffic.

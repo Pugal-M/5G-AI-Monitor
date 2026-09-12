@@ -1,0 +1,6 @@
+Problem: High Jitter
+Symptoms: Packet delay varies significantly, disrupting voice and real-time services.
+Possible causes: Queueing, variable load, backhaul instability, retransmissions, routing changes.
+Indicators: Variable queue depth, packet loss, transport delay variation.
+Diagnostic checks: Check queue depth, packet loss, transport stability, and QoS policy.
+Recommended actions: Stabilize queues and investigate transport changes.

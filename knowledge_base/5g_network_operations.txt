@@ -1,0 +1,4 @@
+Problem: 5G Network Operations
+Symptoms: Service degradation can involve radio, transport, core, or QoS domains.
+Diagnostic checks: Correlate PRB use, active users, CQI, SINR, BLER, retransmissions, packet loss, and backhaul utilization.
+Recommended actions: Start with measured evidence, isolate the affected domain, and escalate persistent degradation.

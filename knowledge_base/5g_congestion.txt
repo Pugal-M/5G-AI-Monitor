@@ -1,0 +1,6 @@
+Problem: 5G Cell Congestion
+Symptoms: High latency, low throughput, jitter, and scheduling delay during busy periods.
+Possible causes: High PRB utilization, too many active users, overloaded cell resources.
+Indicators: PRB utilization, active user count, queue depth, and scheduler delay increase together.
+Diagnostic checks: Check PRB utilization, active users, and cell resource utilization.
+Recommended actions: Load balance users, add capacity, or optimize scheduler resources.

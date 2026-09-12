@@ -1,0 +1,6 @@
+Problem: Backhaul Congestion
+Symptoms: High latency, degraded throughput, variable jitter, and transport packet loss.
+Possible causes: Insufficient transport capacity, saturated backhaul link, routing delay.
+Indicators: High backhaul utilization, increased transport latency, queueing, packet drops.
+Diagnostic checks: Check backhaul utilization, transport latency, packet loss, and routing path.
+Recommended actions: Increase transport capacity or investigate saturated links.

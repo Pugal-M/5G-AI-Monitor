@@ -1,0 +1,6 @@
+Problem: Poor 5G Radio Conditions
+Symptoms: Low throughput, retransmissions, high latency at the cell edge.
+Possible causes: Low SINR, low CQI, weak RSRP/RSRQ, coverage gaps.
+Indicators: Low CQI/SINR and high BLER.
+Diagnostic checks: Check SINR, CQI, RSRP, RSRQ, and UE location.
+Recommended actions: Optimize antenna parameters and resolve coverage problems.
