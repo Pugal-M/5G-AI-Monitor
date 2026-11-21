@@ -66,7 +66,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run the 5G AI monitoring pipeline.")
     parser.add_argument("--scenario", choices=("normal", "anomaly"), default="normal")
     parser.add_argument("--generate", action="store_true", help="Regenerate synthetic telemetry.")
-    parser.add_argument("--no-ollama", action="store_true", help="Disable the normal-state LLM summary.")
+    parser.add_argument("--no-ollama", action="store_true", help="Disable Qwen/Ollama explanations; use deterministic evidence only.")
     args = parser.parse_args()
 
     result = run_pipeline(args.scenario, args.generate, use_ollama=not args.no_ollama)
