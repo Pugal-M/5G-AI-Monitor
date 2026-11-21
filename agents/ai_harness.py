@@ -65,7 +65,7 @@ class AIHarness:
                 rca = self._stage(
                     trace,
                     "root_cause_analysis",
-                    lambda: self.root_cause_agent.analyze(status),
+                    lambda: self.root_cause_agent.analyze(status, use_ollama=use_ollama),
                 )
             except Exception as error:
                 # An RCA failure must not erase the anomaly detected by the
@@ -103,7 +103,8 @@ class AIHarness:
         elif rca is not None:
             trace.append({
                 "stage": "llm_explanation",
-                "status": "INCLUDED_IN_ROOT_CAUSE_ANALYSIS",
+                "status": "COMPLETED" if use_ollama else "SKIPPED",
+                "reason": None if use_ollama else "Ollama explanation was disabled.",
                 "duration_ms": 0.0,
             })
         else:
