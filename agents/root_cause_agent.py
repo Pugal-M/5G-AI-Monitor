@@ -330,7 +330,7 @@ class RootCauseAgent:
         kinds = sorted({item["metric"].replace("_ms", "") for item in anomaly.get("anomalies", [])})
         return "Possible causes of " + ", ".join(kinds) + " in a 5G network: congestion, backhaul, radio conditions, packet loss and retransmissions."
 
-    def analyze(self, anomaly: dict, top_k: int = 5) -> dict:
+    def analyze(self, anomaly: dict, top_k: int = 5, use_ollama: bool = True) -> dict:
 
     # ==================================================
     # 1. CHECK ANOMALY
@@ -592,7 +592,7 @@ class RootCauseAgent:
 
     """
             }
-        )
+        ) if use_ollama else "Ollama explanation disabled by the AI Harness."
 
 
         # ==================================================
